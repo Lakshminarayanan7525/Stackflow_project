@@ -1,12 +1,13 @@
 # Stackflow Project
 
-A full stack web application developed using React for frontend and Spring Boot for backend.
+A Full Stack Web Application developed using React.js for frontend and Spring Boot for backend.
 
 ## 🚀 Features
-- Product management system
-- Add and view products
-- Frontend and backend integration
-- REST API support
+- Product Management System
+- Add Products
+- View Products
+- Frontend and Backend Integration
+- REST API Support
 
 ## 🛠 Technologies Used
 
@@ -25,6 +26,26 @@ A full stack web application developed using React for frontend and Spring Boot 
 
 StackFlow/
 │
-├── product/frontend # React frontend
-├── productinventory # Spring Boot backend
+├── product/frontend      # React Frontend
+├── productinventory      # Spring Boot Backend
 
+## ▶️ How to Run
+
+### Frontend
+
+```bash
+cd product/frontend
+npm install
+npm start
+```
+
+### Backend
+
+```bash
+cd productinventory/productinventory
+mvn spring-boot:run
+```
+
+## 👨‍💻 Author
+
+Lakshminarayanan
